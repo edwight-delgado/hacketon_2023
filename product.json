@@ -2,7 +2,7 @@
     {
         "Producto": "Apple iPhone SE (2022)",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ztFtDt7wKcRjV47zFE5f0hjgrDXasv5JyA&usqp=CAU",
-        "Descripcion": "Apple iPhone 11 64gb Blanco (btec)",
+        "Descripcion": "Apple iPhone SE (2022)",
         "Precio": "20.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"talla": "M", "color": "azul", "material": "algodón"}
@@ -10,7 +10,7 @@
     {
         "Producto": "Asus Zenfone 8 ",
         "img": "https://falabella.scene7.com/is/image/Falabella/15442191?qlt=80&wid=500&hei=500&scl=3",
-        "Descripcion": "Poco X5 256gb 8gb Ram 5G - Negro",
+        "Descripcion": "Asus Zenfone 8 ",
         "Precio": "79.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"talla": "US 9", "color": "negro", "género": "unisex"}
@@ -18,7 +18,7 @@
     {
         "Producto": "Samsung Galaxy A13",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuqV81sB-RgrB8cYVRvT1DwBiwTpC5IkbRO8JiZuRFcG9ddufF8MTRNP8V6bTAFcED6s&usqp=CAU",
-        "Descripcion": "Galaxy S22 Ultra 128 Gb Samsung",
+        "Descripcion": "Samsung Galaxy A13",
         "Precio": "129.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"color": "marrón", "dimensiones": "30cm x 20cm x 10cm", "estilo": "clásico"}
@@ -26,7 +26,7 @@
     {
         "Producto": "Samsung Galaxy S22 Plus",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV7ovK3GWRv2jJT4QRMhLKrmiMnaKUFfuEjA&usqp=CAU",
-        "Descripcion": "Xiaomi redmi note 12 4gb+128gb - azul - xiaomi",
+        "Descripcion": "Samsung Galaxy S22 Plus",
         "Precio": "49.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"color": "plateado", "material": "acero inoxidable", "movimiento": "cuarzo"}
@@ -50,7 +50,7 @@
     {
     "Producto": "OnePlus Nord N20",
     "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/latam/cl/mkt/plp/phones/nova-y70.jpg",
-    "Descripcion": "Smartphone galaxy a23 128gb 5g White - Samsung",
+    "Descripcion": "OnePlus Nord N20",
     "Precio": "299.99",
     "Fecha": "2023-06-29",
     "Caracteristicas": {"resolución": "20.2 megapíxeles", "zoom óptico": "5x", "pantalla": "3 pulgadas"}
