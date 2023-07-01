@@ -20,7 +20,7 @@ function speak(text) {
 function questionToExecute(product) {
   let prompt = 'hasme una descripcion de muy breve del producto ' + product
   setTimeout(function() {  
-    postData(url='http://127.0.0.1:8000/', {'data':product, 'prompt':prompt})
+    postData(url='http://127.0.0.1:8000/', {'data':prompt})
     .then((data) => {
 
 
@@ -134,9 +134,21 @@ function questionToExecute(product) {
   })
   
  
-  $("#chat-circle").click(function() {    
+  $("#chat-circle").click(function() {  
+
     $("#chat-circle").toggle('scale');
     $(".chat-box").toggle('scale');
+    setTimeout(function() {  
+      prompt = "Debes empezar la conversacion con un saludo al cliente, presentate como un asistente virtual que busca ayudarlo a buscar un telefono (ejemplo: Hola! Soy tu asistente virtual y te voy a ayudar a elegir un telefono!), luego debes preguntarle su nombre, su edad y el uso que se le dara. Si no se te brindan todas las respuestas, insiste con las que falten y luego continua Una vez con todas las respuestas procede a buscar el telefono que mas se acomode a las caracteristicas que se necesitan, siempre puedes aceptar nuevas"
+      postData(url='http://127.0.0.1:8000/', {'data':prompt})
+      .then((data) => {
+        
+        //console.log('chat:'+data); // JSON data parsed by `data.json()` call
+        generate_message(data, 'self');
+        speak(data)
+      }); 
+      //generate_message(msg, 'user');  
+    }, 1000)
   })
   
   $(".chat-box-toggle").click(function() {

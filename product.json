@@ -1,63 +1,72 @@
 [
     {
-        "Producto": "Camiseta de manga corta",
-        "Descripcion": "Camiseta de algodón con estampado de rayas.",
+        "Producto": "Apple iPhone 11 64gb Blanco (btec)",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ztFtDt7wKcRjV47zFE5f0hjgrDXasv5JyA&usqp=CAU",
+        "Descripcion": "Apple iPhone 11 64gb Blanco (btec)",
         "Precio": "20.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"talla": "M", "color": "azul", "material": "algodón"}
     },
     {
-        "Producto": "Zapatillas deportivas",
-        "Descripcion": "Zapatillas para correr con suela amortiguada.",
+        "Producto": "Poco X5 256gb 8gb Ram 5G - Negro",
+        "img": "https://falabella.scene7.com/is/image/Falabella/15442191?qlt=80&wid=500&hei=500&scl=3",
+        "Descripcion": "Poco X5 256gb 8gb Ram 5G - Negro",
         "Precio": "79.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"talla": "US 9", "color": "negro", "género": "unisex"}
     },
     {
-        "Producto": "Bolso de cuero",
-        "Descripcion": "Bolso de mano hecho de cuero genuino.",
+        "Producto": "Galaxy S22 Ultra 128 Gb Samsung",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuqV81sB-RgrB8cYVRvT1DwBiwTpC5IkbRO8JiZuRFcG9ddufF8MTRNP8V6bTAFcED6s&usqp=CAU",
+        "Descripcion": "Galaxy S22 Ultra 128 Gb Samsung",
         "Precio": "129.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"color": "marrón", "dimensiones": "30cm x 20cm x 10cm", "estilo": "clásico"}
     },
     {
-        "Producto": "Reloj de pulsera",
-        "Descripcion": "Reloj analógico resistente al agua.",
+        "Producto": "Xiaomi redmi note 12 4gb+128gb - azul - xiaomi",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV7ovK3GWRv2jJT4QRMhLKrmiMnaKUFfuEjA&usqp=CAU",
+        "Descripcion": "Xiaomi redmi note 12 4gb+128gb - azul - xiaomi",
         "Precio": "49.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"color": "plateado", "material": "acero inoxidable", "movimiento": "cuarzo"}
     },
     {
-        "Producto": "Auriculares inalámbricos",
-        "Descripcion": "Auriculares Bluetooth con cancelación de ruido.",
+        "Producto": "Galaxy A34 5g 128gb",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuqV81sB-RgrB8cYVRvT1DwBiwTpC5IkbRO8JiZuRFcG9ddufF8MTRNP8V6bTAFcED6s&usqp=CAU",
+        "Descripcion": "Galaxy A34 5g 128gb",
         "Precio": "99.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"color": "negro", "conectividad": "Bluetooth 5.0", "duración de la batería": "hasta 10 horas"}
     },
     {
-        "Producto": "Tablet",
-        "Descripcion": "Tablet de 10 pulgadas con pantalla HD.",
+        "Producto": "Poco X5 Pro 256gb 8gb Ram 5G - Amarillo",
+        "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/latam/latin/mkt/plp/11-4/mate50-pro.png",
+        "Descripcion": "Poco X5 Pro 256gb 8gb Ram 5G - Amarillo",
         "Precio": "199.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"marca": "ABC Electronics", "almacenamiento": "64GB", "sistema operativo": "Android 10"}
     },
     {
-    "Producto": "Cámara digital",
-    "Descripcion": "Cámara compacta de alta resolución.",
+    "Producto": "Smartphone galaxy a23 128gb 5g White - Samsung",
+    "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/latam/cl/mkt/plp/phones/nova-y70.jpg",
+    "Descripcion": "Smartphone galaxy a23 128gb 5g White - Samsung",
     "Precio": "299.99",
     "Fecha": "2023-06-29",
     "Caracteristicas": {"resolución": "20.2 megapíxeles", "zoom óptico": "5x", "pantalla": "3 pulgadas"}
     },
     {
-    "Producto": "Licuadora",
-    "Descripcion": "Licuadora de alta potencia para preparar batidos y smoothies.",
+    "Producto": "Redmi Note 12 Pro 5G Blue",
+    "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova10/list/starry-silver.png",
+    "Descripcion": "Redmi Note 12 Pro 5G Blue",
     "Precio": "79.99",
     "Fecha": "2023-06-29",
     "Caracteristicas": {"potencia": "1000W", "capacidad": "1.5 litros", "velocidades": "5 niveles"}
     },
     {
-    "Producto": "Perfume",
-    "Descripcion": "Fragancia floral con notas de jazmín y rosa.",
+    "Producto": "Xiaomi Poco X5 5G 256 Gb Negro 8 Gb Ram",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1oYA0MwEjhKKpuibnCcIp9Q-E8yjidBq3BMUdy4UpVwxof1I2rnT0UjnbioRg_yAeoU&usqp=CAU",
+    "Descripcion": "Xiaomi Poco X5 5G 256 Gb Negro 8 Gb Ram",
     "Precio": "49.99",
     "Fecha": "2023-06-29",
     "Caracteristicas": {"volumen": "50ml", "notas": ["jazmín", "rosa", "bergamota"]}
