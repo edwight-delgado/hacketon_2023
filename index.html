@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Chat UI</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/card.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="center-text">
+  
+    <h2>ChatBox UI</h2>
+    <p>Message send and scroll to bottom enabled </p>
+</div> 
+<div id="body"> 
+  <!-- card -->
+    <div class="container">
+      <div class="row" id="item_card">
+        
+      </div>
+      
+    </div>
+  <!-- end card -->
+
+
+
+
+<div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+		    <i class="material-icons">speaker_phone</i>
+	</div>
+  
+  <div class="chat-box">
+    <div class="chat-box-header">
+      ChatBot
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <label class="toggle" for="toggle">
+				<input type="checkbox" id="toggle" name="toggle"/>
+				<span class="slider"></span> 
+				
+			</label>
+      <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">   
+      </div>
+      <div class="chat-logs">
+       
+      </div><!--chat-log -->
+    </div>
+    <div class="chat-input">      
+      <form>
+        <input type="text" id="chat-input" placeholder="Send a message..."/>
+      <button type="submit" class="chat-submit" id="chat-submit" onclick="return chatToExecute()"><i class="material-icons">send</i></button>
+      </form>      
+    </div>
+  </div>
+  
+  
+  
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script><script  src="js/script.js"></script>
+
+<script>
+  window.onload = () => {
+
+    $.ajax({
+      url: "/shopping-card-api",
+      type: 'GET',
+      dataType: 'json', // added data type
+          success: function(res) {
+              console.log(res);
+              console.log(res.items)
+              let template = ''
+              let item_card = document.getElementById("item_card").innerHTML = template 
+
+              //document.getElementById("shopping_cart_total").innerHTML = ''
+              for (var key in res.items) {
+                let product = String(res.items[key]['Producto'])
+                template = `
+                <div class="col-md-3">
+                  <div class="wsk-cp-product">
+                    <div class="wsk-cp-img">
+                      <img src="https://3.bp.blogspot.com/-eDeTttUjHxI/WVSvmI-552I/AAAAAAAAAKw/0T3LN6jABKMyEkTRUUQMFxpe6PLvtcMMwCPcBGAYYCw/s1600/001-culture-clash-matthew-gianoulis.jpg" alt="Product" class="img-responsive" />
+                    </div>
+                    <div class="wsk-cp-text">
+                      <div class="category">
+                        <span onclick="questionToExecute('${product}')">Preguntar</span>
+                      </div>
+                      <div class="title-product">
+                        <h3>${res.items[key]['Producto']}</h3>
+                      </div>
+                      <div class="description-prod">
+                        <p>${res.items[key]['Descripcion']}</p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="wcf-left"><span class="price">$ ${res.items[key]['Precio']}</span></div>
+                        <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"></i></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  `; 
+                document.getElementById("item_card").innerHTML += template 
+
+              }
+          }
+        })
+        
+  }
+</script>
+</body>
+</html>
