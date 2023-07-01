@@ -1,6 +1,6 @@
 [
     {
-        "Producto": "Apple iPhone 11 64gb Blanco (btec)",
+        "Producto": "Apple iPhone SE (2022)",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ztFtDt7wKcRjV47zFE5f0hjgrDXasv5JyA&usqp=CAU",
         "Descripcion": "Apple iPhone 11 64gb Blanco (btec)",
         "Precio": "20.99",
@@ -8,7 +8,7 @@
         "Caracteristicas": {"talla": "M", "color": "azul", "material": "algodón"}
     },
     {
-        "Producto": "Poco X5 256gb 8gb Ram 5G - Negro",
+        "Producto": "Asus Zenfone 8 ",
         "img": "https://falabella.scene7.com/is/image/Falabella/15442191?qlt=80&wid=500&hei=500&scl=3",
         "Descripcion": "Poco X5 256gb 8gb Ram 5G - Negro",
         "Precio": "79.99",
@@ -16,7 +16,7 @@
         "Caracteristicas": {"talla": "US 9", "color": "negro", "género": "unisex"}
     },
     {
-        "Producto": "Galaxy S22 Ultra 128 Gb Samsung",
+        "Producto": "Samsung Galaxy A13",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuqV81sB-RgrB8cYVRvT1DwBiwTpC5IkbRO8JiZuRFcG9ddufF8MTRNP8V6bTAFcED6s&usqp=CAU",
         "Descripcion": "Galaxy S22 Ultra 128 Gb Samsung",
         "Precio": "129.99",
@@ -24,7 +24,7 @@
         "Caracteristicas": {"color": "marrón", "dimensiones": "30cm x 20cm x 10cm", "estilo": "clásico"}
     },
     {
-        "Producto": "Xiaomi redmi note 12 4gb+128gb - azul - xiaomi",
+        "Producto": "Samsung Galaxy S22 Plus",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV7ovK3GWRv2jJT4QRMhLKrmiMnaKUFfuEjA&usqp=CAU",
         "Descripcion": "Xiaomi redmi note 12 4gb+128gb - azul - xiaomi",
         "Precio": "49.99",
@@ -32,23 +32,23 @@
         "Caracteristicas": {"color": "plateado", "material": "acero inoxidable", "movimiento": "cuarzo"}
     },
     {
-        "Producto": "Galaxy A34 5g 128gb",
+        "Producto": "Samsung Galaxy Z Flip 3",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuqV81sB-RgrB8cYVRvT1DwBiwTpC5IkbRO8JiZuRFcG9ddufF8MTRNP8V6bTAFcED6s&usqp=CAU",
-        "Descripcion": "Galaxy A34 5g 128gb",
+        "Descripcion": "Samsung Galaxy Z Flip 3",
         "Precio": "99.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"color": "negro", "conectividad": "Bluetooth 5.0", "duración de la batería": "hasta 10 horas"}
     },
     {
-        "Producto": "Poco X5 Pro 256gb 8gb Ram 5G - Amarillo",
+        "Producto": "Google Pixel 6",
         "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/latam/latin/mkt/plp/11-4/mate50-pro.png",
-        "Descripcion": "Poco X5 Pro 256gb 8gb Ram 5G - Amarillo",
+        "Descripcion": "Google Pixel 6",
         "Precio": "199.99",
         "Fecha": "2023-06-29",
         "Caracteristicas": {"marca": "ABC Electronics", "almacenamiento": "64GB", "sistema operativo": "Android 10"}
     },
     {
-    "Producto": "Smartphone galaxy a23 128gb 5g White - Samsung",
+    "Producto": "OnePlus Nord N20",
     "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/latam/cl/mkt/plp/phones/nova-y70.jpg",
     "Descripcion": "Smartphone galaxy a23 128gb 5g White - Samsung",
     "Precio": "299.99",
@@ -56,17 +56,17 @@
     "Caracteristicas": {"resolución": "20.2 megapíxeles", "zoom óptico": "5x", "pantalla": "3 pulgadas"}
     },
     {
-    "Producto": "Redmi Note 12 Pro 5G Blue",
+    "Producto": "OnePlus Nord 2T",
     "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova10/list/starry-silver.png",
-    "Descripcion": "Redmi Note 12 Pro 5G Blue",
+    "Descripcion": "OnePlus Nord 2T",
     "Precio": "79.99",
     "Fecha": "2023-06-29",
     "Caracteristicas": {"potencia": "1000W", "capacidad": "1.5 litros", "velocidades": "5 niveles"}
     },
     {
-    "Producto": "Xiaomi Poco X5 5G 256 Gb Negro 8 Gb Ram",
+    "Producto": "Oppo Find X5 Pro",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1oYA0MwEjhKKpuibnCcIp9Q-E8yjidBq3BMUdy4UpVwxof1I2rnT0UjnbioRg_yAeoU&usqp=CAU",
-    "Descripcion": "Xiaomi Poco X5 5G 256 Gb Negro 8 Gb Ram",
+    "Descripcion": "Oppo Find X5 Pro",
     "Precio": "49.99",
     "Fecha": "2023-06-29",
     "Caracteristicas": {"volumen": "50ml", "notas": ["jazmín", "rosa", "bergamota"]}
